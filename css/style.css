@@ -1,0 +1,287 @@
+
+html, body, header {
+    height: 100%;
+}
+
+/* HEADER */
+header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 15vh;
+    width: 100vw;
+}
+
+header img{ 
+    width: 100px;
+    height: 60px;
+    align-self: center;
+    
+}
+
+
+.box div{
+    width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+
+}
+
+/*MAIN*/
+
+main {
+ background:url('../img/img01.jpg') no-repeat center/cover;
+  width: 100%;
+  height: 60%;
+  line-height: 30px;  
+
+}
+
+.reseaux {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    display: none;
+}
+
+.titre1 {
+
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+color: white;
+font-family: 'Pacifico', cursive;
+ font-size: 20px;  
+}
+.titre2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+  
+    }
+
+    /* CHARIOT */
+    
+.chariot {
+     height: 100%;
+     color: rgb(128, 0, 49); 
+     margin-left: 10%;
+     margin-right: 10%;  
+     display: flex;
+     flex-direction: column;
+     justify-content: center; 
+     align-content: center;        
+}
+.chariot div{
+   text-align: center;       
+}
+.chariot div img{
+    width: 50%;
+    height: 30%;        
+}
+
+.chariot div  h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.chariot div  p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* STORYTELLING */
+.storytelling{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%; 
+    line-height: 30px;      
+}
+
+.storytelling div video {
+  width: 70%;
+  height: 50%;
+}
+.storytelling div.text h2{
+   font-family: 'Pacifico', cursive;
+   color:#de6e1d;
+   align-self: flex-end;
+   font-size: 40px;
+} 
+.storytelling div.text p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#5f3436; 
+    align-self: flex-end;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+ } 
+
+
+
+ /* LOGOS */
+
+ .logos {
+     width: 100%;
+     height: 20%;
+     display: flex;
+     justify-content: space-evenly;
+     align-content: flex-start;
+    box-sizing: border-box;
+    top: 10%;
+    left: 10%;  
+    margin-left: 10%;
+ } 
+
+ .logos a {
+     text-decoration: none;  
+}
+
+.logos a img {
+   display: block;
+   width: 50%;
+   height: 60%; 
+}
+
+
+ /* WHAT'S NEW  */
+
+ /* en commentaire pour version large   */
+
+ .new {
+     background-color:#dc5f13;
+     width: 100%;
+     height: 70%;
+     display: flex;
+     justify-content: flex-start;
+     color: white;
+     flex-direction: column;
+     /* align-content: center; */
+     align-items: flex-start;
+     
+ }
+ /* .new div{
+     width: 33%;
+ } */
+ .new div img {
+     display: none;
+
+ }
+ .new div h1 {
+    font-family: 'Pacifico', cursive;
+    margin-left: 20%;
+     line-height: 90px;
+     font-size: 56px;
+ }
+ .new div a{
+     text-decoration: none;
+     color:#502628;
+     font-family: 'Roboto Condensed', sans-serif; 
+     font-weight: bold;
+     font-size: 20px; 
+     margin-left: 10%;
+     
+ }
+ .new div p{
+
+    color: #502628;
+    font-family: 'Roboto Condensed', sans-serif; 
+    margin-left: 10%;   
+}
+
+
+/* FOOTER  */
+.footer {
+    width: 100%;
+    height: 50%;
+    background-color: #502628;
+    color: white;
+    padding: 10%;
+}
+
+.footer1 {
+    display: flex;
+justify-content: space-around ; 
+}
+
+.contact a{
+
+text-decoration: none;
+font-size: 15px;
+color: white;
+font-style: italic;
+
+}
+
+.contact {
+    
+font-family: 'Roboto Condensed', sans-serif; 
+font-size: 30px;
+text-transform: uppercase;
+
+    }
+
+.connect {
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.connect a{
+    display: none;
+}
+
+
+.subscibe {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+input {
+    background-color:#502628;
+    border: 1px solid white; 
+}
+
+
+/* MAP */
+
+.map {
+    width: 100%;
+    height: 60%;
+    background: url(../img/new-map-2x-1356x328.jpg)no-repeat center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map div img{
+    width: 10%;
+    height: 10%;
+}
+
+.map div:hover{
+    color: #dc5f13
+}
+
+
+/* VERSION LARGE  */
